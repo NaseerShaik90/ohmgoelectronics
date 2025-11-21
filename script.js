@@ -145,3 +145,4 @@ topBtn.addEventListener("click",()=>window.scrollTo({top:0,behavior:'smooth'}));
 // ==================== INITIAL LOAD ====================
 displayProducts(products);
 updateCart();
+
