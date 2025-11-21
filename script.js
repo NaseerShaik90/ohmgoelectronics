@@ -145,3 +145,23 @@ topBtn.addEventListener("click",()=>window.scrollTo({top:0,behavior:'smooth'}));
 // ==================== INITIAL LOAD ====================
 displayProducts(products);
 updateCart();
+const products = [
+  {
+    id: 1,
+    name: "Resistor 220Ω",
+    price: 5,
+    image: "images/resistor.jpg"
+  },
+  {
+    id: 2,
+    name: "Capacitor 100µF",
+    price: 10,
+    image: "images/capacitor.jpg"
+  },
+  {
+    id: 3,
+    name: "ESP8266 WiFi Module",
+    price: 150,
+    image: "images/esp8266.jpg"
+  }
+];
